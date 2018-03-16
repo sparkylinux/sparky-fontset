@@ -1,1 +1,1 @@
-?package(sparky-fontset):needs="X11" section="Applications/System"        title="Font Display Settings" command="remsu 'dpkg-reconfigure -f gnome fontconfig-config'" icon="accessories-character-map"
+?package(sparky-fontset):needs="X11" section="Applications/System"        title="Font Display Settings" command="remsu 'sparky-terminal -e dpkg-reconfigure fontconfig-config'" icon="accessories-character-map"

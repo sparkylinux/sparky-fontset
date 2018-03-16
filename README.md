@@ -1,7 +1,7 @@
 Font Display Settings
 This tool lets you to set the system-wide font settings
 
-Copyright (C) 2013-2017 Paweł Pijanowski
+Copyright (C) 2013-2018 Paweł Pijanowski
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -21,6 +21,7 @@ Dependencies:
 dpkg
 fontconfig-config
 sparky-remsu
+sparky-terminal
 
 Install:
 -------------
