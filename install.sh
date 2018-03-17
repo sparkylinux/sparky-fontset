@@ -18,6 +18,7 @@ if [ "$1" = "uninstall" ]; then
 	rm -f /usr/lib/sparkycenter/system/sparky-fontset.desktop
 	rm -f /usr/share/applications/sparky-fontset.desktop
 	rm -f /usr/share/menu/sparky-fontset
+	rm -f /usr/bin/sparky-fontset
 else
 	if [ ! -d /usr/lib/sparkycenter/system ]; then
 		mkdir -p /usr/lib/sparkycenter/system
@@ -25,4 +26,5 @@ else
 	cp lib/* /usr/lib/sparkycenter/system/
 	cp lib/* /usr/share/applications/
 	cp menu/* /usr/share/menu/
+	cp bin/* /usr/bin/
 fi
