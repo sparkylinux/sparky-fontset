@@ -21,7 +21,7 @@ Dependencies:
 dpkg
 fontconfig-config
 sparky-remsu
-sparky-terminal
+sparky-xterm (>= 0.2.0)
 
 Install:
 -------------
